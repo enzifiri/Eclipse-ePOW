@@ -53,8 +53,12 @@ solana config set --url https://bitz-000.eclipserpc.xyz/
 # Installing bitz
 cargo install bitz
 
+# screen olustur
+screen -S bitz
+
 # Collect bitz:
 bitz collect
+bitz collect --cores 4
 
 # Claim your bitz:
 bitz claim
