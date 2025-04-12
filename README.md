@@ -34,8 +34,10 @@ Copy the output `cat ~/.config/solana/id.json` with [] and import your eclipse w
 ```console
 # Create wallet
 solana-keygen new
+2. hesabı kuruyorsan
+solana-keygen recover
 
-# To see id.json. Copy the output with [] and import your eclipse wallet as private key. And fund at least 0.0005 ETH
+# 1. hesap kuruyosan yedek al, kare parantez de dahil
 cat ~/.config/solana/id.json
 
 # RPC config
