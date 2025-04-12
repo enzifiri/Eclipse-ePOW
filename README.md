@@ -19,6 +19,10 @@ apt install build-essential git curl gcc make jq clang protobuf-compiler pkg-con
 # Install Rust:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+# source config
+source ~/.profile
+source ~/.cargo/env
+
 # Install Solana CLI:
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 ```
