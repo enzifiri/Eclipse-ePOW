@@ -25,6 +25,9 @@ source ~/.cargo/env
 
 # Install Solana CLI:
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+
+. "$HOME/.cargo/env"
+export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 ```
 
 ### Creating wallet and RPC config
