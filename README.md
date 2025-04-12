@@ -13,7 +13,7 @@ Preparing the server
 # First, update your distro
 sudo apt update && apt upgrade -y
 
-# Install requirements
+# Install dependencies
 apt install build-essential git curl gcc make jq clang protobuf-compiler pkg-config libssl-dev -y
 
 # Install Rust:
