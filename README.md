@@ -8,7 +8,7 @@ I installed using Ubuntu 24 on my 8CPU 16GB RAM device.
 In short, you earn $BITZ tokens by mining. There is no financial return for the moment.
 
 
-Preparing the server
+### Preparing the server
 ```console
 # First, update your distro
 sudo apt update && apt upgrade -y
@@ -27,7 +27,7 @@ source ~/.cargo/env
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 ```
 
-Creating wallet and RPC config
+### Creating wallet and RPC config
 
 After wallet creation, backup your seeds and id.json.
 
@@ -45,7 +45,7 @@ solana config set --url https://bitz-000.eclipserpc.xyz/
 
 ```
 
-Installing bitz. Cargo builds might take some time. Wait until end.
+### Installing bitz. Cargo builds might take some time. Wait until end.
 ```console
 # Installing bitz
 cargo install bitz
